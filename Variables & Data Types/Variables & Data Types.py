@@ -52,3 +52,20 @@ temperatureInFahreinheit = (9/5) * temperatureInCelsius + 32
 
 print("The temperature in Fahreinheit is: ", temperatureInFahreinheit)
 
+# Define a constant in Python. Can you change it later? Show with an example.
+
+# We can not define a constant in python. To indicate a constant value in python we use
+# capital letters for the name of the variable to indicate it is constant value. We are not creating 
+# constant but a variable which values can be changed.
+
+MAX_AGE = 110
+
+MAx_AGE = 90
+
+# What happens if you assign the value of one variable to another variable? Demonstrate this
+# The value is completely copied to the other variable when we assign the second variable the first 
+# variable value
+firstVariable = "My name is usama"
+print("The value for the first variable is: ", firstVariable)
+secondVariable = firstVariable
+print("The value for the second variable is: ", secondVariable)
