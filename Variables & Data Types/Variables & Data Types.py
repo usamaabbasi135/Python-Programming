@@ -22,9 +22,22 @@ print(myName + myAge)
 # How do you declare a variable in Python? Create examples using integer, float, and string data types.
 # There is no way to declar a variable in python. However when you assign the value to the variable, the variable is declared and inititalized at that moment.
 
-int_value = 23
-float_value = 34.321
-string_value = "My name is usama bin hafeez abbasi. I am currently working in Afiniti as Production Analyst"
+valueForInteger= 23
+valueForFloat = 34.321
+valueForString = "My name is usama bin hafeez abbasi. I am currently working in Afiniti as Production Analyst"
 
-print(type(int_value),type(float_value),type(string_value))
+print(valueForString)
+print(type(valueForInteger),type(valueForFloat),type(valueForString))
 
+
+# Write a program to input two numbers and print their sum.
+
+firstNumber = input("Enter first Number: ")
+secondNumber = input("Enter second Number: ")
+
+firstNumber = int(firstNumber)
+secondNumber = int(secondNumber)
+
+print("The entered numbers are: ", firstNumber,secondNumber)
+sum = firstNumber + secondNumber
+print("The sum of the numbers is: ", sum)
