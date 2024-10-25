@@ -11,3 +11,9 @@ first_number = temp_number
 print("Values after Swapping are: ", first_number,second_number)
 
 
+# What will happen if you try to add a string and an integer? Write code to test it.
+
+myName = 'Usama Bin Hafeez Abbasi'
+myAge = 25
+
+print(myName + myAge)
