@@ -41,3 +41,14 @@ secondNumber = int(secondNumber)
 print("The entered numbers are: ", firstNumber,secondNumber)
 sum = firstNumber + secondNumber
 print("The sum of the numbers is: ", sum)
+
+# Write a program that converts temperature from Celsius to Fahrenheit
+
+temperatureInCelsius = input("Enter the temperature: ")
+temperatureInCelsius = float(temperatureInCelsius)
+
+print("The temperature in celsius is: ", temperatureInCelsius)
+temperatureInFahreinheit = (9/5) * temperatureInCelsius + 32
+
+print("The temperature in Fahreinheit is: ", temperatureInFahreinheit)
+
