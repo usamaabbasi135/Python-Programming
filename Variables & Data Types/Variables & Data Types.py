@@ -69,3 +69,24 @@ firstVariable = "My name is usama"
 print("The value for the first variable is: ", firstVariable)
 secondVariable = firstVariable
 print("The value for the second variable is: ", secondVariable)
+
+# Write a program to input a string from the user and output its length.
+
+user_input = input("Enter a string value: ")
+length_of_string = len(user_input)
+print("The length of the value is: ", length_of_string)
+
+
+# What is type casting? Convert an integer to a string and concatenate it with another string.
+
+# Type casting means to convert one type to another type of data. Like converting a integer value to string. String to integer.
+
+myAge = 50
+myName = "Usama Bin Hafeez Abbasi"
+
+myAgeString = str(myAge)
+
+
+conMyAgeMyString = myName + myAgeString
+
+print(conMyAgeMyString)
