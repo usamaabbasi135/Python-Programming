@@ -90,3 +90,9 @@ myAgeString = str(myAge)
 conMyAgeMyString = myName + myAgeString
 
 print(conMyAgeMyString)
+
+# Create a variable x and assign it a value of 5. Now multiply it by 10 and print the result
+
+x = 5
+x = x * 10
+print (x)
