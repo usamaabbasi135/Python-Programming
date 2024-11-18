@@ -52,3 +52,28 @@ sum = first_value + second_value
 product = first_value * second_value
 
 print(f"The sum of the number is {sum} and product is {product}")
+
+# Write a Python program to take a number from the user and print its multiplication table up to 10.
+
+number = int(input ("Enter a number"))
+
+for i in range(10):
+    print(f'{number} * {i + 1} = ', number * (i + 1))
+
+
+# Ask the user for a sentence and count how many words are in that sentence
+
+sentence = input("Enter a sentence: ")
+total = 0
+for i in sentence:
+    total = total + 1
+
+print("The number of characters in sentece is: ", total)
+
+# Write a program that prints a formatted string showing a person's name, height, and weight.
+
+name = "Usama Bin Hafeez Abbasi"
+age = 25
+weight = 90
+
+print(f"My Name is: {name} and my age is {age} and my weight is {weight}")
